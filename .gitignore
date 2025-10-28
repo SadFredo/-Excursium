@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+
+# Sensitive data
+.env
+*.key
+config.ini
+secrets.py
+
+# Test reports and outputs
+/reports/
+/screenshots/
+/test_results/
+.pytest_cache/
+
+# System files
+.DS_Store  # macOS
+Thumbs.db  # Windows
